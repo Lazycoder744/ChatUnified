@@ -11,12 +11,11 @@ You use your own API key and secret from your Google Cloud Console, give the JSO
 
 ---
 
-## Known issues (There are a LOT OF THEM...)
+## Known issues
 
-1. Usernames don't appear
-   - I'm working on this, I still can't figure it out
-2. The WebUI is kinda weird and confusing sometimes (Am I streaming or not?)
-3. You have to start the stream before starting the game? I'm not 100% sure on that
+1. You have to click "Disconnect Youtube" and then reconnect in the WebUI in order to get it to load
+   - Make this automatic, or a button in UI? (So we don't eat up our quota)
+
 ---
 
 ## I'm new to this!
