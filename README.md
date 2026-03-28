@@ -3,11 +3,12 @@
 ---
 ## Overview
 ChatUnifier allows you to add your own YouTube API key, bypassing normal ChatPlex servers.
-You use your own API key and secret from your Google Cloud Console, give the JSON secret to ChatUnified through the web interface, and done!
+You use your own API key and secret from your Google Cloud Console, give the JSON secret to ChatUnifier through the web interface, and done!
 ---
 ## Known issues
-1. You have to click "Disconnect Youtube" and then reconnect in the WebUI in order to get it to load
+1. You have to click "Disconnect Youtube" and then reconnect in the WebUI in order to get it to load, if you don't start the stream before the game
    - Make this automatic, or a button in UI? (So we don't eat up our quota)
+2. Sometimes messages duplicate after a while, will try to fix
 ---
 ## How to setup!
 # Getting Your YouTube OAuth Credentials for ChatUnifier
@@ -55,18 +56,17 @@ You use your own API key and secret from your Google Cloud Console, give the JSO
 8. Click **Create**
 ---
 ## Step 6: Download the JSON
-1. You will see a popup — click **Download JSON**
+1. You will see a popup, click **Download JSON**
 2. Save the file somewhere you can find it
 3. If you are unable to download it from this prompt, Go to **Clients**, and under **Client Secrets** there should be **Client Secret**. Click the download button next to it.
 ---
 ## Step 7: Connect in ChatUnifier
-1. Launch Beat Saber — your browser will open the ChatUnifier dashboard automatically
+1. Launch Beat Saber, your browser will open the ChatUnifier dashboard automatically
 2. Drag and drop the downloaded JSON file onto the **Settings WebUI** page that opens.
 3. Click **Connect YouTube**
 4. Sign in with your Google account and grant the requested permissions
 5. You should see the status change to **Connected**
 ---
 ## Notes
-- You only need to do this once — your token is saved locally
 - If you ever get disconnected, just open `http://localhost:42069` in your browser and reconnect
 - If it ever stops working, click "Disconnect Youtube" and then reconnect it, it should work.
