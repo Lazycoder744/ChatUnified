@@ -1,11 +1,11 @@
-# ChatUnified
+# ChatUnifier
 
-**ChatUnified** essentially bypasses normal ChatPlex servers, giving you the option to get YouTube chat without having to use the servers (Which are Patreon only!)
+**ChatUnifier** essentially bypasses normal ChatPlex servers, giving you the option to get YouTube chat without having to use the servers (Which are Patreon only!)
 ---
 
 ## Overview
 
-ChatUnified allows you to add your own YouTube API key, bypassing normal ChatPlex servers.
+ChatUnifier allows you to add your own YouTube API key, bypassing normal ChatPlex servers.
 
 You use your own API key and secret from your Google Cloud Console, give the JSON secret to ChatUnified through the web interface, and done!
 
